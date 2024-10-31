@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-sage-50: #f4f7f4;
+  --color-sage-100: #e6ede6;
+  --color-sage-500: #4a7c59;
+  --color-sage-600: #3c6548;
+  --color-sage-700: #2e4e37;
+  --color-sage-900: #1a2b1f;
+}
+
+.bg-sage-50 { background-color: var(--color-sage-50); }
+.bg-sage-100 { background-color: var(--color-sage-100); }
+.bg-sage-600 { background-color: var(--color-sage-600); }
+.hover\:bg-sage-700:hover { background-color: var(--color-sage-700); }
+.text-sage-700 { color: var(--color-sage-700); }
+.text-sage-900 { color: var(--color-sage-900); }
+.border-sage-500 { border-color: var(--color-sage-500); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
